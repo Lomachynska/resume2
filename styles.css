@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin: 0;
+}
+
+.wrapper {
+    background: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevents shadow overflow */
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+}
+
+aside {
+    background-color: #487eea;
+    width: 370px;
+    padding: 20px;
+    border-top-left-radius: 10px; /* Updated to border-top-left-radius */
+    border-bottom-left-radius: 10px; /* Updated to border-bottom-left-radius */
+}
+
+/* Main Content */
+.main-content {
+    border-left: 2px solid #6774FF;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+/* Heading Styles */
+.my-profession {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #333;
+}
+
+/* Project and Text Styles */
+.project-item, .colortext {
+    color: #080d41;
+}
+
+.colortext1, .project-item1 {
+    color: #888;
+}
+
+.my-text {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Contact Styles */
+.contacts {
+    margin-bottom: 20px;
+}
+
+.contacts p {
+    margin: 5px 0;
+}
+
+.contacts a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Styles */
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+/* Instagram Styles */
+.instagram {
+    margin-bottom: 20px;
+}
+
+.instagram h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.instagram iframe {
+    border: none;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* GitHub Section */
+.github {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.github h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.github a {
+    color: #333;
+    text-decoration: none;
+}
+
+.github a:hover {
+    text-decoration: underline;
+}
